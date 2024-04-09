@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Amanda Breidenbach">
+    <title>Amanda Sites</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Breidenbach Sites</h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img class="responsiva" id="troca" src="img/img1.webp">
+        </div>
+        <div class="box-text">
+            <span>Faça seu site comigo!!</span>
+            <h2>Rápido e prático, <br>com excelente preço!</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum commodi, optio soluta rerum obcaecati porro distinctio assumenda magnam, officiis iste deleniti officia sint impedit totam explicabo hic quaerat alias in.
+            </p>
+            <a href="#" class="btn-hero">Fale comigo!</a>
+        </div>
+    </section>
+
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Especialidade 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nihil tenetur porro autem expedita laudantium sapiente nam aperiam sequi, dolorem fugiat minima cumque deserunt iste, veniam, suscipit animi accusantium hic.</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nihil tenetur porro autem expedita laudantium sapiente nam aperiam sequi, dolorem fugiat minima cumque deserunt iste, veniam, suscipit animi accusantium hic.</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nihil tenetur porro autem expedita laudantium sapiente nam aperiam sequi, dolorem fugiat minima cumque deserunt iste, veniam, suscipit animi accusantium hic.</p>
+        </div>
+
+        <a href="#" class="m-top btn-hero">Fale comigo!</a>
+     </section>
+
+     <footer>
+        <p>2024 © Breidenbach Sites. Todos os direitos reservados.</p>
+     </footer>
+
+     <div class="whats">
+        <a target="_blank" href="#">
+        <img width="50px" src="img/whats.png">
+
+     </div>
+
+     <script>
+        const troca = document.getElementById('troca');
+        //quando o mouse passar por cima da imagem
+        troca.addEventListener('mouseover', function () {
+            troca.src = "img/img2.webp";
+        });
+
+        //quando o mouse sair de cima da imagem
+        troca.addEventListener('mouseout', function () {
+            troca.src = "img/img1.webp";
+        });
+     </script>
+
+</body>
+
+
+</html>
